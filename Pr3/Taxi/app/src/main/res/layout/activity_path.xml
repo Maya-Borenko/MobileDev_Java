@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PathActivity"
+    android:orientation="vertical"
+    android:background="#EFF582"
+    tools:ignore="MissingDefaultResource">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#000000"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:text="Taxi"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="-30dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/menu"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="72dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/pointFrom"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="Point From"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            tools:ignore="InvalidId" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/streetF"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="Street"
+            android:textSize="16sp"
+            android:layout_width="wrap_content" />
+
+        <EditText
+            android:id="@+id/streetFEnt"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/houseF"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="House"
+            android:textSize="16sp"
+            android:layout_width="wrap_content" />
+
+        <EditText
+            android:id="@+id/houseFEnt"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="72dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/flatF"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="Flat"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"/>
+
+        <EditText
+            android:id="@+id/flatFEnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="72dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/pointTo"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="Point To"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/streetT"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="Street"
+            android:textSize="16sp"
+            android:layout_width="wrap_content" />
+
+        <EditText
+            android:id="@+id/streetTEnt"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/houseT"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="House"
+            android:textSize="16sp"
+            android:layout_width="wrap_content" />
+
+        <EditText
+            android:id="@+id/houseTEnt"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="72dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/flatT"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="Flat"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"/>
+
+        <EditText
+            android:id="@+id/flatTEnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/grey"
+        android:text="OK"
+        android:textColor="@color/black" />
+
+</LinearLayout>

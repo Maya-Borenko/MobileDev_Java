@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="fio">Боренко Майя Денисовна 2004</string>
+    <string name="button_text">Нажми</string>
+</resources>

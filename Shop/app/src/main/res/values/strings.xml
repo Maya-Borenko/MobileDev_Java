@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BMD - Shop</string>
+    <string name="footerTitle">Products</string>
+    <string name="box">Show Checked Items</string>
+</resources>
